@@ -1,0 +1,51 @@
+html {
+    scroll-behavior: smooth;
+  }
+  :root {
+    --light: #ffffff;
+  }
+  
+  .nav-link {
+    margin-left: 25px;
+    padding: 35px 0;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: var(--light) !important;
+  }
+  
+  @media (min-width: 992px) {
+    .navbar-dark {
+      position: absolute;
+      width: 100%;
+      top: 0;
+      left: 0;
+      background: transparent !important;
+    }
+    #navbarSupportedContent {
+      margin-left: 500px;
+    }
+  }
+  .welcome {
+    background: url("images/bg5.jpg");
+    background-repeat: no-repeat;
+    /* background-position: ; */
+  }
+  
+  .welcome img {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    animation: rot 15s linear infinite;
+  }
+  
+  @keyframes rot {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .menustyle:hover {
+    background-color: #6495ed;
+  }
+  
